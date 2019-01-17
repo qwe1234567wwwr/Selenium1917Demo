@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- thread-count,线程，parallel并发的方式-->
+<suite name="Default Suite" thread-count="2" parallel="methods">
+  <test name="SeleniumDemo190106">
+    <classes>
+      <class name="com.xiaoyan.day03.LoginTest">
+        <methods>
+          <include name="LoginTest1"/>
+        </methods>
+      </class> <!-- com.xiaoyan.day03.LoginTest -->
+    </classes>
+  </test> <!-- SeleniumDemo190106 -->
+</suite> <!-- Default Suite -->
